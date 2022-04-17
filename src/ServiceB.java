@@ -1,5 +1,6 @@
-public class ServiceB {
-	public static String jobB() {
-		return "jobB()";
-	}
+public interface ServiceB {
+	public String jobB();
+
+	public ServiceA getServiceA();
+	public void setServiceA(final ServiceA serviceA);
 }
